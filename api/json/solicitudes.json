@@ -1,0 +1,52 @@
+
+
+[
+    {
+      "ID_SOLICITUD": 1,
+      "descripcion": "Responsable de diseñar y crear programas informáticos.",
+      "token_publicacion": "abc123",
+      "ubicacion": "Remoto",
+      "precio": "3000",
+      "fecha_publicacion": "2023-09-01",
+      "fecha_pausado": null,
+      "mensualidad_paga": 1,
+      "calificacion": "4.5",
+      "cant_calificacion": "10",
+
+      "ID_USUARIO": 0,
+      "token_usuario": "q9JkbXXPKo4yRewQDdXr37uPCQfLb953SdIRjoMA4xwz4u939HMVURae3MTy3Gh0",
+      "email": "loco87ap@gmail.com",
+      "nombres": "Agustin Ezequiel",
+      "apellidos": "Pupich",
+      "telefono": 1134336748,
+      "contraseña": "locoapcapo87",
+      "verificacion": 0,
+      "fecha_agregado": "2024-06-12 22:07:16",
+      "fecha_actualizado": "2024-06-14 23:12:45",
+      "fecha_borrado": "2024-07-15 12:14:09",
+      "tipo_usuario": 0,
+      "estado_borrado": 1,
+      "periodo_prueba": 1,
+      "fecha_prueba_inicio": "2024-06-12 22:07:16",
+      "fecha_prueba_fin": "2024-09-12 22:07:16",
+
+
+      "ID_PUBLICANTE": 16,
+      "token_publicante": "yeY43fwcOD93UwJMjCKixei1YdW9LL5IbjqiHFwH5ixKRwS6hSzzW8Udkphv5D86",
+      "email_publicante": "loco87ap@gmail.com",
+      "nombres_publicante": "Agustin Ezequiel",
+      "apellidos_publicante": "Pupich",
+      "telefono_publicante": 1134336748,
+      "contraseña_publicante": "locoapcapo87",
+      "verificacion_publicante": 1,
+      "fecha_agregado_publicante": "2024-06-12 22:07:16",
+      "fecha_actualizado_publicante": "2024-06-14 23:12:45",
+      "fecha_borrado_publicante": "2024-07-15 12:14:09",
+      "tipo_usuario_publicante": 0,
+      "estado_borrado_publicante": 1,
+      "periodo_prueba_publicante": 0,
+      "fecha_prueba_inicio_publicante": "2024-06-12 22:07:16",
+      "fecha_prueba_fin_publicante": "2024-09-12 22:07:16"
+    }
+
+  ]

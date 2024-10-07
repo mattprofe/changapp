@@ -1,0 +1,13 @@
+/* Variables de color */
+:root {
+    --azul-marino: #2C3E50;
+    --naranja: #E67E22;
+    --amarillo: #F1C40F;
+    --blanco: #ECF0F1;
+    --verde-menta: #1ABC9C;
+    --rojo-suave: #E74C3C;
+    --bg-color-body: #ebebeb; /*gris para el fondo general*/
+    --bg-color-header: #ed9428;
+    --bg-color-footer:  #696461;
+    --txt-color-header: white;
+}

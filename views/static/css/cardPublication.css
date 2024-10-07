@@ -1,0 +1,149 @@
+#stream__services__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); /* Dos columnas fijas */
+    gap: 20px;
+    padding: 20px;
+/*    background-color: #f9f9f9; /* Fondo ligero para el área general */*/
+}
+
+.service__card {
+    background-color: #FFFFFF; /* Fondo blanco para las tarjetas */
+    color: #070605; /* Texto negro profundo */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-left: 8px solid #e48404; /* Barra lateral para destacar */
+    cursor: pointer;
+}
+
+.service__card:hover {
+    transform: translateY(-5px); /* Efecto de flotación al hacer hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service__title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ed952a; /* Naranja más suave para el título */
+    margin-bottom: 10px;
+}
+
+.service__qualification {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #e48404; /* Color principal de las estrellas */
+}
+
+.service__qualification .star {
+    font-size: 18px;
+    color: #e48404; /* Naranja intenso para las estrellas */
+}
+
+.service__qualification .star.inactive {
+    color: #7b7b80; /* Color gris para las estrellas vacías */
+}
+
+.service__price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #7b7b80; /* Gris neutro para el precio */
+    background-color: #FFFFFF; /* Fondo blanco */
+    padding: 5px 10px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #e48404; /* Borde naranja intenso */
+}
+
+.service__price::before {
+    content: "$"; /* Agregar símbolo de precio */
+    font-weight: bold;
+}
+
+/*========*/
+
+  .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 24px;
+            width: 100%;
+            max-width: 400px;
+        }
+        .card-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 20px;
+            display: block;
+            border: 3px solid #ed9428;
+        }
+        .card-header {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .card-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0 0 8px 0;
+            color: #333;
+        }
+        .card-subtitle {
+            font-size: 16px;
+            color: #ed9428;
+            margin: 0;
+        }
+        .card-content {
+            margin-bottom: 20px;
+        }
+        .info-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        .info-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            fill: #ed9428;
+        }
+        .skills-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 15px;
+        }
+        .skill-badge {
+            background-color: #fff3e0;
+            border-radius: 16px;
+            padding: 4px 10px;
+            font-size: 12px;
+            color: #ed9428;
+        }
+        .see-more {
+            font-size: 12px;
+            color: #ed9428;
+            cursor: pointer;
+        }
+        .contact-button {
+            background-color: #ed9428;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 16px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 100%;
+        }
+        .contact-button:hover {
+            background-color: #d17f1e;
+        }

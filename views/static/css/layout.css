@@ -1,0 +1,40 @@
+*{
+	margin: 0rem;
+	padding: 0rem;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	width: 100%;
+	min-height: 100vh;
+	background-image: url(../../../img/system/bg.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#wrapper{
+	width: 100%;
+	min-height: 100vh;
+	color: var(--txt-color);
+	background-color: var(--bg-color-body);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+}
+
+footer{
+	background-color: #696461; /*Por algún motivo en el celu no toma la variable*/
+	margin: 1rem 0 0 0;
+	padding-top: 1rem;
+	padding-right: 2rem;
+	padding-left: 2rem;
+	padding-bottom: 2rem;
+}
+
+footer a{
+	color: white;
+}

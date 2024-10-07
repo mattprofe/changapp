@@ -1,0 +1,140 @@
+@extern('header')
+	<header>
+		<div id="logo">
+			<img src="{{PROJECT_IMG_ROUTE}}/system/logo.png">
+			<h1 class="tituloApp">ChangApp</h1>	
+		</div>
+		
+		
+
+		<div id="control__user">
+			<a href="register" class="control__user__btn">Creá tu cuenta</a>
+			<a href="login" class="control__user__btn">Ingresá</a>
+		</div>
+	</header>
+	 
+	<main>
+
+		<div id="stream__actions">
+			<div class="action__card">	
+				<div class="action__title">Ingresa a tu cuenta</div>
+				<div class="action__logo">
+					<img src="{{PROJECT_IMG_ROUTE}}/system/login.svg">
+				</div>
+				<div class="action__resume">Comenza a ofrecer y buscar servicios</div>
+				<div class="action__controls">
+					<a href="login" class="action__button">Ingresar a tu cuenta</a>
+				</div>
+			</div>
+
+
+			<div class="action__card">	
+				<div class="action__title">Ingresa tu ubicacion</div>
+				<div class="action__logo">
+					<img src="{{PROJECT_IMG_ROUTE}}/system/current_location.svg">
+				</div>
+				<div class="action__resume">Para conocer la oferta de servicios en tu zona</div>
+				<div class="action__controls">
+					<a href="" class="action__button">Ingresar ubicación</a>
+				</div>
+			</div>
+
+
+			<div class="action__card">	
+				<div class="action__title">Más vistos</div>
+				<div class="action__logo">
+					<img src="{{PROJECT_IMG_ROUTE}}/system/more_search.svg">
+				</div>
+				<div class="action__resume">Conoce los servicios más consultados</div>
+				<div class="action__controls">
+					<a href="" class="action__button">Ir a Más vistos</a>
+				</div>
+			</div>
+
+				<div class="action__card">	
+				<div class="action__title">Más calificados</div>
+				<div class="action__logo">
+					<img src="{{PROJECT_IMG_ROUTE}}/system/more_califications.svg">
+				</div>
+				<div class="action__resume">Conoce los mejores servicios</div>
+				<div class="action__controls">
+					<a href="" class="action__button">ir a Más calificados</a>
+				</div>
+			</div>
+		</div>
+
+
+		<template id="tpl__card__publication">
+			<!-- <div class="service__card">
+				<div class="service__title"></div>
+				<div class="service__qualification">
+		            <span class="star inactive">☆</span>
+		            <span class="star inactive">☆</span>
+		            <span class="star inactive">☆</span>
+		            <span class="star inactive">☆</span>
+		            <span class="star inactive">☆</span>
+		        </div>
+				<div class="service__price"></div>
+			</div> -->
+
+		<div class="card">
+        <img src="/placeholder.svg?height=120&width=120" alt="Foto de Carlos Rodríguez" class="card-image">
+        <div class="card-header">
+        	<div class="service__qualification">
+		            <span class="star inactive">☆</span>
+		            <span class="star inactive">☆</span>
+		            <span class="star inactive">☆</span>
+		            <span class="star inactive">☆</span>
+		            <span class="star inactive">☆</span>
+		        </div>
+            <h1 class="card-title">Carlos Rodríguez</h1>
+            <!-- <p class="card-subtitle">Jardinero Profesional</p> -->
+            <p class="service__title">Jardinero Profesional</p>
+            <div class="service__price"></div>
+        </div>
+        <div class="card-content">
+            <div class="info-item">
+                <svg class="info-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                </svg>
+                <span>Sevilla, España (Disponible para trabajos en la provincia)</span>
+            </div>
+            <div class="info-item">
+                <svg class="info-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                </svg>
+                <span>Disponible: Lunes a Sábado, 8:00 - 18:00</span>
+            </div>
+            <!-- <div class="info-item">
+                <svg class="info-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/>
+                </svg>
+                <span>Técnico en Jardinería, Escuela de Agricultura de Sevilla</span>
+            </div> -->
+            <div class="skills-section">
+                <!-- <h2 class="skills-title">Habilidades:</h2> -->
+                <div class="skills-list">
+                    <span class="skill-badge">Diseño de jardines</span>
+                    <span class="skill-badge">Poda</span>
+                    <span class="skill-badge">Riego</span>
+                    <span class="skill-badge">Control de plagas</span>
+                    <span class="see-more">Ver más</span>
+                </div>
+            </div>
+        </div>
+        <button class="contact-button">Contactar</button>
+    </div>
+		</template>
+
+		Últimos servicios publicados
+
+		<div id="stream__services__list"></div>
+
+		<a href="./panel" id="goPanel">Ver más servicios</a>
+	</main>
+
+	<script src="{{PROJECT_JS_ROUTE}}/showServices.js{{PROJECT_MODE}}"></script>
+@extern('footer')
+
+		
+		 
